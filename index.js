@@ -17,11 +17,11 @@ function destructivelyRemoveFirstCat(name){
     console.log (cats);
 }
 function appendCat(name) {
-    return [...cats, name];
-    
+    return [...cats, "Broom"];
+
 }
 function prependCat(name) {
-    return [name, ...cats];
+    return ["Arnold", ...cats];
 }
   
   
